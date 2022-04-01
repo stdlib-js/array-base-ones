@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/array-base-ones",
+  "version": "0.0.0",
+  "description": "Create a generic array filled with ones.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/array-base-ones.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "data",
+    "structure",
+    "array",
+    "generic",
+    "allocate",
+    "alloc",
+    "fill",
+    "filled",
+    "ones"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
