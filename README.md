@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-ones/tags). For example,
+
+```javascript
 import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones@v0.1.0-deno/mod.js';
 ```
 
@@ -86,7 +91,7 @@ var out = ones( 3 );
 
 ```javascript
 var gscal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gscal' ).ndarray;
-import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones@v0.1.0-deno/mod.js';
+import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones@deno/mod.js';
 
 // Create a ones array:
 var arr = ones( 10 );
