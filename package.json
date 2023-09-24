@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-ones",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Create a generic array filled with ones.",
   "license": "Apache-2.0",
   "author": {
@@ -37,13 +37,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-filled": "^0.0.2"
+    "@stdlib/array-base-filled": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array": "^0.0.7",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/blas-base-gscal": "^0.0.9",
-    "@stdlib/math-base-special-pow": "^0.0.7",
+    "@stdlib/assert-is-array": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/blas-base-gscal": "^0.1.0",
+    "@stdlib/math-base-special-pow": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
