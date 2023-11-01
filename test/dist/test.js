@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,35 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var ones = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof ones, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns a "generic" array filled with ones', function test( t ) {
-	var expected;
-	var actual;
-
-	expected = [ 1.0, 1.0, 1.0 ];
-	actual = ones( 3 );
-
-	t.deepEqual( actual, expected, 'returns expected value' );
-	t.end();
-});
-
-tape( 'the function returns an empty array if provided a length of `0`', function test( t ) {
-	var expected;
-	var actual;
-
-	expected = [];
-	actual = ones( 0 );
-
-	t.deepEqual( actual, expected, 'returns expected value' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
