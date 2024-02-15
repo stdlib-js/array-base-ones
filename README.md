@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones@esm/index.mjs';
+import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones@v0.2.0-esm/index.mjs';
 ```
 
 #### ones( len )
@@ -91,7 +91,7 @@ var out = ones( 3 );
 <script type="module">
 
 var gscal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gscal' ).ndarray;
-import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones@esm/index.mjs';
+import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones@v0.2.0-esm/index.mjs';
 
 // Create a ones array:
 var arr = ones( 10 );
