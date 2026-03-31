@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.2.3",
-    "@stdlib/blas-base-gscal": "^0.3.0",
+    "@stdlib/blas-base-gscal": "^0.3.1",
     "@stdlib/math-base-special-pow": "^0.3.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
